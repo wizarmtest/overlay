@@ -1,5 +1,10 @@
 package samples.jawsware.interactiveoverlay;
 
+
+import android.app.Notification;
+import android.app.PendingIntent;
+import android.content.Intent;
+
 /*
 Copyright 2011 jawsware international
 
@@ -18,10 +23,6 @@ limitations under the License.
 
 import com.jawsware.core.share.OverlayService;
 
-import android.app.Notification;
-import android.app.PendingIntent;
-
-import android.content.Intent;
 
 public class SampleOverlayService extends OverlayService {
 
@@ -54,6 +55,7 @@ public class SampleOverlayService extends OverlayService {
 		}
 	}
 	
+	@SuppressWarnings("deprecation")
 	@Override
 	protected Notification foregroundNotification(int notificationId) {
 		Notification notification;
