@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Overlay Sample</string>
+
+    <string name="title_notification">Sample Overlay View</string>
+    <string name="message_notification">Press To Hide Overlay</string>
+</resources>
