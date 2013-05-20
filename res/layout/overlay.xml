@@ -11,8 +11,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal|top"
-        android:text="info"
-        android:textColor="#FFF"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+		android:text="info"
+    	android:textColor="#FFF"
+	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/listActivitySample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textview_info"
+        android:layout_alignParentBottom="true"
+        android:text="ListActivity sample" />
 
 </RelativeLayout>
